@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "misogi.ruby-rubocop",
+    "bradlc.vscode-tailwindcss",
+    "pflannery.vscode-versionlens"
+  ]
+}

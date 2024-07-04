@@ -1,0 +1,9 @@
+require:
+  - rubocop-rails
+  - rubocop-performance
+
+AllCops:
+  NewCops: enable
+  DisabledByDefault: true
+  Exclude:
+  - 'node_modules'
