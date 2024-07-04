@@ -1,0 +1,3 @@
+database: open /Applications/Docker.app && wait && docker compose up
+web: bin/rails server -p 3000
+tailwind: bin/rails tailwindcss:watch

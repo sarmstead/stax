@@ -35,6 +35,10 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
-# Ignore system files
+# Ignore system files.
 *.DS_Store
 /node_modules
+
+# Ignore Tailwind build files, but keep the directory.
+/app/assets/builds/*
+!/app/assets/builds/.keep

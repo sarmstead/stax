@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+
+if ! brew ls --versions overmind >> /dev/null; then
+  echo "Installing overmind..."
+  brew install overmind
+fi
+
+export RUBY_DEBUG_OPEN="true"
+export RUBY_DEBUG_LAZY="true"
+
+exec overmind start -f Procfile.dev "$@"
